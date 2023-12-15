@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 package com.wireguard.android.configStore
@@ -77,6 +77,6 @@ class FileConfigStore(private val context: Context) : ConfigStore {
     }
 
     companion object {
-        private const val TAG = "WireGuard/FileConfigStore"
+        private const val TAG = "咩WG/FileConfigStore"
     }
 }

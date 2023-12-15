@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -17,7 +17,7 @@ import com.wireguard.android.R
 
 
 object BiometricAuthenticator {
-    private const val TAG = "WireGuard/BiometricAuthenticator"
+    private const val TAG = "咩WG/BiometricAuthenticator"
 
     // Not all devices support strong biometric auth so we're allowing both device credentials as
     // well as weak biometrics.

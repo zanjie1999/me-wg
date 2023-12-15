@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 package com.wireguard.android.configStore
@@ -7,7 +7,7 @@ package com.wireguard.android.configStore
 import com.wireguard.config.Config
 
 /**
- * Interface for persistent storage providers for WireGuard configurations.
+ * Interface for persistent storage providers for 咩WG configurations.
  */
 interface ConfigStore {
     /**

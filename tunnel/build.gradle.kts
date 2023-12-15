@@ -81,8 +81,8 @@ publishing {
                 from(components["release"])
             }
             pom {
-                name.set("WireGuard Tunnel Library")
-                description.set("Embeddable tunnel library for WireGuard for Android")
+                name.set("咩WG Tunnel Library")
+                description.set("Embeddable tunnel library for 咩WG for Android")
                 url.set("https://www.wireguard.com/")
 
                 licenses {
@@ -99,11 +99,11 @@ publishing {
                 }
                 developers {
                     organization {
-                        name.set("WireGuard")
+                        name.set("咩WG")
                         url.set("https://www.wireguard.com/")
                     }
                     developer {
-                        name.set("WireGuard")
+                        name.set("咩WG")
                         email.set("team@wireguard.com")
                     }
                 }

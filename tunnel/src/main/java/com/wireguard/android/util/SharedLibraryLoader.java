@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -27,7 +27,7 @@ import androidx.annotation.RestrictTo.Scope;
 @NonNullForAll
 @RestrictTo(Scope.LIBRARY_GROUP)
 public final class SharedLibraryLoader {
-    private static final String TAG = "WireGuard/SharedLibraryLoader";
+    private static final String TAG = "咩WG/SharedLibraryLoader";
 
     private SharedLibraryLoader() {
     }

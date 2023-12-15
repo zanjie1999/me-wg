@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -13,7 +13,7 @@ import java.util.Set;
 import androidx.annotation.Nullable;
 
 /**
- * Interface for implementations of the WireGuard secure network tunnel.
+ * Interface for implementations of the 咩WG secure network tunnel.
  */
 
 @NonNullForAll

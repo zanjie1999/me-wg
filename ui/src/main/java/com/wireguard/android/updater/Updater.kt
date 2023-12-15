@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 package com.wireguard.android.updater
@@ -46,7 +46,7 @@ import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Duration.Companion.seconds
 
 object Updater {
-    private const val TAG = "WireGuard/Updater"
+    private const val TAG = "咩WG/Updater"
     private const val UPDATE_URL_FMT = "https://download.wireguard.com/android-client/%s"
     private const val APK_NAME_PREFIX = BuildConfig.APPLICATION_ID + "-"
     private const val APK_NAME_SUFFIX = ".apk"

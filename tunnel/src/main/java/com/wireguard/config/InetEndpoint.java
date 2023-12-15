@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -21,7 +21,7 @@ import androidx.annotation.Nullable;
 
 
 /**
- * An external endpoint (host and port) used to connect to a WireGuard {@link Peer}.
+ * An external endpoint (host and port) used to connect to a 咩WG {@link Peer}.
  * <p>
  * Instances of this class are externally immutable.
  */

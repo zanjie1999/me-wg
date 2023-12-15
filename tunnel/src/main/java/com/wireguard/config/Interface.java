@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -27,7 +27,7 @@ import java.util.stream.Collectors;
 import androidx.annotation.Nullable;
 
 /**
- * Represents the configuration for a WireGuard interface (an [Interface] block). Interfaces must
+ * Represents the configuration for a 咩WG interface (an [Interface] block). Interfaces must
  * have a private key (used to initialize a {@code KeyPair}), and may optionally have several other
  * attributes.
  * <p>
@@ -178,7 +178,7 @@ public final class Interface {
     }
 
     /**
-     * Returns the UDP port number that the WireGuard interface will listen on.
+     * Returns the UDP port number that the 咩WG interface will listen on.
      *
      * @return a UDP port number, or {@code Optional.empty()} if none is configured
      */
@@ -187,7 +187,7 @@ public final class Interface {
     }
 
     /**
-     * Returns the MTU used for the WireGuard interface.
+     * Returns the MTU used for the 咩WG interface.
      *
      * @return the MTU, or {@code Optional.empty()} if none is configured
      */
@@ -249,7 +249,7 @@ public final class Interface {
     }
 
     /**
-     * Serializes the {@code Interface} for use with the WireGuard cross-platform userspace API.
+     * Serializes the {@code Interface} for use with the 咩WG cross-platform userspace API.
      * Note that not all attributes are included in this representation.
      *
      * @return the {@code Interface} represented as a series of "KEY=VALUE" lines

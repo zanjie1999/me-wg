@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 package com.wireguard.android.model
@@ -18,7 +18,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 /**
- * Encapsulates the volatile and nonvolatile state of a WireGuard tunnel.
+ * Encapsulates the volatile and nonvolatile state of a 咩WG tunnel.
  */
 class ObservableTunnel internal constructor(
     private val manager: TunnelManager,
@@ -141,6 +141,6 @@ class ObservableTunnel internal constructor(
 
 
     companion object {
-        private const val TAG = "WireGuard/ObservableTunnel"
+        private const val TAG = "咩WG/ObservableTunnel"
     }
 }

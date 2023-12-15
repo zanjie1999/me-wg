@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 package com.wireguard.android.fragment
@@ -36,7 +36,7 @@ import com.wireguard.config.Config
 import kotlinx.coroutines.launch
 
 /**
- * Fragment for editing a WireGuard configuration.
+ * Fragment for editing a 咩WG configuration.
  */
 class TunnelEditorFragment : BaseFragment(), MenuProvider {
     private var haveShownKeys = false
@@ -328,6 +328,6 @@ class TunnelEditorFragment : BaseFragment(), MenuProvider {
     companion object {
         private const val KEY_LOCAL_CONFIG = "local_config"
         private const val KEY_ORIGINAL_NAME = "original_name"
-        private const val TAG = "WireGuard/TunnelEditorFragment"
+        private const val TAG = "咩WG/TunnelEditorFragment"
     }
 }

@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -8,7 +8,7 @@ package com.wireguard.crypto;
 import com.wireguard.util.NonNullForAll;
 
 /**
- * Represents a Curve25519 key pair as used by WireGuard.
+ * Represents a Curve25519 key pair as used by 咩WG.
  * <p>
  * Instances of this class are immutable.
  */

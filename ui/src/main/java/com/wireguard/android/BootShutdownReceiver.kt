@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 package com.wireguard.android
@@ -29,6 +29,6 @@ class BootShutdownReceiver : BroadcastReceiver() {
     }
 
     companion object {
-        private const val TAG = "WireGuard/BootShutdownReceiver"
+        private const val TAG = "咩WG/BootShutdownReceiver"
     }
 }

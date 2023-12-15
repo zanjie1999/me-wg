@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -29,7 +29,7 @@ import androidx.annotation.Nullable;
 @NonNullForAll
 public class RootShell {
     private static final String SU = "su";
-    private static final String TAG = "WireGuard/RootShell";
+    private static final String TAG = "咩WG/RootShell";
 
     private final File localBinaryDir;
     private final File localTemporaryDir;

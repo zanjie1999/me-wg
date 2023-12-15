@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -23,7 +23,7 @@ import androidx.annotation.RestrictTo;
 import androidx.annotation.RestrictTo.Scope;
 
 /**
- * Helper to install WireGuard tools to the system partition.
+ * Helper to install 咩WG tools to the system partition.
  */
 
 @NonNullForAll
@@ -39,7 +39,7 @@ public final class ToolsInstaller {
             new File("/system/bin"),
     };
     @Nullable private static final File INSTALL_DIR = getInstallDir();
-    private static final String TAG = "WireGuard/ToolsInstaller";
+    private static final String TAG = "咩WG/ToolsInstaller";
 
     private final Context context;
     private final File localBinaryDir;
@@ -135,7 +135,7 @@ public final class ToolsInstaller {
     @RestrictTo(Scope.LIBRARY_GROUP)
     public int install() throws RootShellException, IOException {
         if (!context.getPackageName().startsWith("com.wireguard."))
-            throw new SecurityException("The tools may only be installed system-wide from the main WireGuard app.");
+            throw new SecurityException("The tools may only be installed system-wide from the main 咩WG app.");
         return willInstallAsMagiskModule() ? installMagisk() : installSystem();
     }
 
@@ -145,7 +145,7 @@ public final class ToolsInstaller {
 
         script.append("trap 'rm -rf /data/adb/modules/wireguard' INT TERM EXIT; ");
         script.append(String.format("rm -rf /data/adb/modules/wireguard/; mkdir -p /data/adb/modules/wireguard%s; ", INSTALL_DIR));
-        script.append("printf 'id=wireguard\nname=WireGuard Command Line Tools\nversion=1.0\nversionCode=1\nauthor=zx2c4\ndescription=Command line tools for WireGuard\nminMagisk=1500\n' > /data/adb/modules/wireguard/module.prop; ");
+        script.append("printf 'id=wireguard\nname=咩WG Command Line Tools\nversion=1.0\nversionCode=1\nauthor=zx2c4\ndescription=Command line tools for 咩WG\nminMagisk=1500\n' > /data/adb/modules/wireguard/module.prop; ");
         script.append("touch /data/adb/modules/wireguard/auto_mount; ");
         for (final String name : EXECUTABLES) {
             final File destination = new File("/data/adb/modules/wireguard" + INSTALL_DIR, name);

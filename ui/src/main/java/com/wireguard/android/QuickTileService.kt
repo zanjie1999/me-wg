@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 package com.wireguard.android
@@ -180,7 +180,7 @@ class QuickTileService : TileService() {
     }
 
     companion object {
-        private const val TAG = "WireGuard/QuickTileService"
+        private const val TAG = "咩WG/QuickTileService"
         var isAdded: Boolean = false
             private set
     }

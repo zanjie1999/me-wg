@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 package com.wireguard.android.activity
@@ -21,9 +21,9 @@ import com.wireguard.android.fragment.TunnelEditorFragment
 import com.wireguard.android.model.ObservableTunnel
 
 /**
- * CRUD interface for WireGuard tunnels. This activity serves as the main entry point to the
- * WireGuard application, and contains several fragments for listing, viewing details of, and
- * editing the configuration and interface state of WireGuard tunnels.
+ * CRUD interface for 咩WG tunnels. This activity serves as the main entry point to the
+ * 咩WG application, and contains several fragments for listing, viewing details of, and
+ * editing the configuration and interface state of 咩WG tunnels.
  */
 class MainActivity : BaseActivity(), FragmentManager.OnBackStackChangedListener {
     private var actionBar: ActionBar? = null

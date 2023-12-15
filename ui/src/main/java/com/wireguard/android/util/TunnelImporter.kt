@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -148,5 +148,5 @@ object TunnelImporter {
         messageCallback(message)
     }
 
-    private const val TAG = "WireGuard/TunnelImporter"
+    private const val TAG = "咩WG/TunnelImporter"
 }

@@ -1,6 +1,6 @@
 /*
  * Copyright © 2016 Southern Storm Software, Pty Ltd.
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -15,7 +15,7 @@ import androidx.annotation.Nullable;
 /**
  * Implementation of Curve25519 ECDH.
  * <p>
- * This implementation was imported to WireGuard from noise-java:
+ * This implementation was imported to 咩WG from noise-java:
  * https://github.com/rweather/noise-java
  * <p>
  * This implementation is based on that from arduinolibs:

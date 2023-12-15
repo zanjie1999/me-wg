@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 package com.wireguard.android.widget
@@ -10,7 +10,7 @@ import android.text.Spanned
 import com.wireguard.android.backend.Tunnel
 
 /**
- * InputFilter for entering WireGuard configuration names (Linux interface names).
+ * InputFilter for entering 咩WG configuration names (Linux interface names).
  */
 class NameInputFilter : InputFilter {
     override fun filter(

@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -31,7 +31,7 @@ public class Statistics {
     /**
      * Add a peer and its current stats to the internal map.
      *
-     * @param key               A WireGuard public key bound to a particular peer
+     * @param key               A 咩WG public key bound to a particular peer
      * @param rxBytes           The received traffic for the {@link com.wireguard.config.Peer} referenced by
      *                          the provided {@link Key}. This value is in bytes
      * @param txBytes           The transmitted traffic for the {@link com.wireguard.config.Peer} referenced by
@@ -67,7 +67,7 @@ public class Statistics {
     /**
      * Get the list of peers being tracked by this instance.
      *
-     * @return An array of {@link Key} instances representing WireGuard
+     * @return An array of {@link Key} instances representing 咩WG
      * {@link com.wireguard.config.Peer}s
      */
     public Key[] peers() {

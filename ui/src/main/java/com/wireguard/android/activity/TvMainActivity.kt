@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -440,6 +440,6 @@ class TvMainActivity : AppCompatActivity() {
     }
 
     companion object {
-        private const val TAG = "WireGuard/TvMainActivity"
+        private const val TAG = "咩WG/TvMainActivity"
     }
 }

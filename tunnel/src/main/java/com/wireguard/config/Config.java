@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -44,7 +44,7 @@ public final class Config {
      * {@link BadConfigException} if the input is not well-formed or contains data that cannot
      * be parsed.
      *
-     * @param stream a stream of UTF-8 text that is interpreted as a WireGuard configuration
+     * @param stream a stream of UTF-8 text that is interpreted as a 咩WG configuration
      * @return a {@code Config} instance representing the supplied configuration
      */
     public static Config parse(final InputStream stream)
@@ -57,7 +57,7 @@ public final class Config {
      * {@link BadConfigException} if the input is not well-formed or contains data that cannot
      * be parsed.
      *
-     * @param reader a BufferedReader of UTF-8 text that is interpreted as a WireGuard configuration
+     * @param reader a BufferedReader of UTF-8 text that is interpreted as a 咩WG configuration
      * @return a {@code Config} instance representing the supplied configuration
      */
     public static Config parse(final BufferedReader reader)
@@ -169,7 +169,7 @@ public final class Config {
     }
 
     /**
-     * Serializes the {@code Config} for use with the WireGuard cross-platform userspace API.
+     * Serializes the {@code Config} for use with the 咩WG cross-platform userspace API.
      *
      * @return the {@code Config} represented as a series of "key=value" lines
      */

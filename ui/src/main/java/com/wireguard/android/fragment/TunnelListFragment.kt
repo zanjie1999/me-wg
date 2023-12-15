@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 package com.wireguard.android.fragment
@@ -44,7 +44,7 @@ import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.launch
 
 /**
- * Fragment containing a list of known WireGuard tunnels. It allows creating and deleting tunnels.
+ * Fragment containing a list of known 咩WG tunnels. It allows creating and deleting tunnels.
  */
 class TunnelListFragment : BaseFragment() {
     private val actionModeListener = ActionModeListener()
@@ -337,6 +337,6 @@ class TunnelListFragment : BaseFragment() {
 
     companion object {
         private const val CHECKED_ITEMS = "CHECKED_ITEMS"
-        private const val TAG = "WireGuard/TunnelListFragment"
+        private const val TAG = "咩WG/TunnelListFragment"
     }
 }

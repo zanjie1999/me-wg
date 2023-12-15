@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -38,12 +38,12 @@ import androidx.collection.ArraySet;
 
 /**
  * Implementation of {@link Backend} that uses the wireguard-go userspace implementation to provide
- * WireGuard tunnels.
+ * 咩WG tunnels.
  */
 @NonNullForAll
 public final class GoBackend implements Backend {
     private static final int DNS_RESOLUTION_RETRIES = 10;
-    private static final String TAG = "WireGuard/GoBackend";
+    private static final String TAG = "咩WG/GoBackend";
     @Nullable private static AlwaysOnCallback alwaysOnCallback;
     private static GhettoCompletableFuture<VpnService> vpnService = new GhettoCompletableFuture<>();
     private final Context context;

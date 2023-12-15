@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -36,12 +36,12 @@ import androidx.annotation.Nullable;
 
 /**
  * Implementation of {@link Backend} that uses the kernel module and {@code wg-quick} to provide
- * WireGuard tunnels.
+ * 咩WG tunnels.
  */
 
 @NonNullForAll
 public final class WgQuickBackend implements Backend {
-    private static final String TAG = "WireGuard/WgQuickBackend";
+    private static final String TAG = "咩WG/WgQuickBackend";
     private final File localTemporaryDir;
     private final RootShell rootShell;
     private final Map<Tunnel, Config> runningConfigs = new HashMap<>();

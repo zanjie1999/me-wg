@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 package com.wireguard.android.fragment
@@ -109,6 +109,6 @@ abstract class BaseFragment : Fragment(), OnSelectedTunnelChangedListener {
     }
 
     companion object {
-        private const val TAG = "WireGuard/BaseFragment"
+        private const val TAG = "咩WG/BaseFragment"
     }
 }

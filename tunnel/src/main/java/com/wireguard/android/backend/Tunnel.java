@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -10,7 +10,7 @@ import com.wireguard.util.NonNullForAll;
 import java.util.regex.Pattern;
 
 /**
- * Represents a WireGuard tunnel.
+ * Represents a 咩WG tunnel.
  */
 
 @NonNullForAll

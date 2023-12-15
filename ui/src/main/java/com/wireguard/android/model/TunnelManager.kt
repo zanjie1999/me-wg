@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
+ * Copyright © 2017-2023 咩WG LLC. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
 package com.wireguard.android.model
@@ -35,7 +35,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 /**
- * Maintains and mediates changes to the set of available WireGuard tunnels,
+ * Maintains and mediates changes to the set of available 咩WG tunnels,
  */
 class TunnelManager(private val configStore: ConfigStore) : BaseObservable() {
     private val tunnels = CompletableDeferred<ObservableSortedKeyedArrayList<String, ObservableTunnel>>()
@@ -250,6 +250,6 @@ class TunnelManager(private val configStore: ConfigStore) : BaseObservable() {
     }
 
     companion object {
-        private const val TAG = "WireGuard/TunnelManager"
+        private const val TAG = "咩WG/TunnelManager"
     }
 }
